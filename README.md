@@ -1,6 +1,9 @@
-# FakerBundle
+# FakerBundle [READONLY]
 
-Symfony Bundle for fakerphp/faker, exposes many of the formatters in twig
+Split of mono
+
+
+Symfony Bundle for fakerphp/faker, exposes many of the formatters in twig.
 
 ```bash
 composer req survos/faker-bundle
@@ -22,7 +25,7 @@ If the twig function names interfere with another twig function, set a prefix, e
 ```yaml
 # config/packages/faker.yaml
 survos_faker:
-  seed: 3
+  seed: 42
   prefix: fake_
 ```
 
